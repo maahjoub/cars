@@ -31,6 +31,7 @@
               </ul>
             </div>
             <div class="col-md-4 align-self-end">
+              <img class="logo-img" src="layout/images/l1.gif">
               All Right & copy right&copy <a href="#">zumh</a> With Love
             </div>
           </div>
