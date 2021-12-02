@@ -6,7 +6,10 @@ function lang($word) {
 		'Servises' => 'الخدمات',
 		'Contact' => 'الاتصال بنا',
 		'Login' => 'تسجيل الدخول ',
-		'Register' => 'التسجيل'
+		'Register' => 'التسجيل',
+		'Lang' => 'اللغة',
+		'Ar' => 'العربية',
+		'En' => 'الانجليزية'
 	);
 	return $lang[$word];
 }

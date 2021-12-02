@@ -6,7 +6,10 @@ function lang($word) {
 		'Servises' => 'servises',
 		'Contact' => ' contact us',
 		'Login' => ' log in ',
-		'Register' => 'register'
+		'Register' => 'register',
+		'Lang' => 'languages',
+		'Ar' => 'Arabic',
+		'En' => 'English'
 	);
 	return $lang[$word];
 }
