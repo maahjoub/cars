@@ -30,11 +30,8 @@ spl_autoload_register(function($class) {
         $user->login();
      }
  }
-  $lang = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);
-    $acceptLang = ['ar', 'en'];
-    $lang = in_array($lang, $acceptLang) ? $lang : 'en';
 
- if ($lang === 'ar') {
+ if ($lang == 'ar') {
      require_once './includes/ar.php';
  } else {
    require_once './includes/en.php';
